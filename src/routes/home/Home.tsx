@@ -3,7 +3,6 @@ import styles from "./Home.module.css";
 import NavBar from "../../reusableComponents/navigationBar/navigationBar";
 
 const Home = () => {
-	const backgroundImage = process.env.PUBLIC_URL + "banner.png";
 	return (
 		<div className={styles.home}>
 			<NavBar></NavBar>
