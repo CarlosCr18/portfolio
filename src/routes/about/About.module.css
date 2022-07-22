@@ -1,3 +1,32 @@
+@keyframes jump {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-1rem);
+	}
+	100% {
+		transform: translateY(0rem);
+	}
+}
+@keyframes visible {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes translation {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
 .About {
 	width: 100vw;
 	min-height: 99vh;
@@ -26,6 +55,7 @@
 	font-size: var(--step-2);
 	white-space: nowrap;
 	font-family: "Lora";
+	animation: visible 0.75s ease-in-out 1, translation 0.35s ease-in-out 1;
 }
 .aboutTextMiddle {
 	font-size: var(--step-5);
@@ -35,23 +65,29 @@
 	white-space: nowrap;
 	word-break: break-word !important;
 	color: #176610 !important;
+	animation: visible 0.5s ease-in-out 1, translation 0.35s ease-in-out 1;
 }
 .aboutTextBottom {
 	font-family: "Lora";
 	font-size: var(--step--2);
 	text-align: justify;
 	width: min(50ch, 90%);
+	animation: visible 0.75s ease-in-out 1, translation 0.35s ease-in-out 1;
 }
 
 .aboutSkills {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 4rem;
 	width: min(90%, 30rem);
-	max-height: 75vh;
+	max-height: 80vh;
 	overflow: auto;
 	text-align: center;
 	padding-inline: min(3rem, 5vw);
+	padding-bottom: 5rem;
+	cursor: grab;
+	animation: visible 1.5s ease 1;
 }
 
 .aboutSkills h3 {
@@ -72,6 +108,22 @@
 	margin-block: min(1rem, 5%);
 }
 
+.mouseScroll {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translateY(-50%);
+	width: 65px;
+	height: 65px;
+	animation: jump 1s ease infinite;
+	transition: all 0.35s ease-out;
+	opacity: 0.55;
+}
+
+.invisible {
+	opacity: 0;
+}
+
 @media (max-width: 1250px) {
 	.About {
 		padding: 2rem 0;
@@ -83,5 +135,13 @@
 	}
 	.aboutSkills {
 		max-height: 50vh;
+	}
+	.mouseScroll {
+		position: absolute;
+		bottom: 0;
+		left: 0%;
+		width: 65px;
+		height: 65px;
+		animation: jump 1s ease infinite;
 	}
 }

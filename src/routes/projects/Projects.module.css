@@ -1,3 +1,32 @@
+@keyframes visible {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes translation {
+	0% {
+		transform: translateY(50%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes scaleUp {
+	0% {
+		transform: scale(0.75);
+		transform-origin: top left;
+	}
+	100% {
+		transform: scale(1);
+		transform-origin: center;
+	}
+}
+
 .projects {
 	width: 100vw;
 	min-height: 100vh;
@@ -19,6 +48,7 @@
 	font-size: var(--step-3);
 	margin-bottom: -0.5rem;
 	font-family: "Poppins";
+	animation: visible 0.55s ease-in-out 1, translation 0.45s ease-out 1;
 }
 .projectsText p {
 	max-width: 80%;
@@ -26,6 +56,7 @@
 	font-size: var(--step--1);
 	color: rgba(0, 0, 0, 0.74);
 	font-family: "Lora";
+	animation: visible 0.75s ease-in-out 1, translation 0.5s ease-out 1;
 }
 
 .cardsContainer {
@@ -38,7 +69,7 @@
 	flex-wrap: nowrap;
 	gap: 2rem;
 	padding: 1.5rem;
-	scrollbar-width: thin;
+	animation: visible 0.5s ease-in-out 1, scaleUp 0.4s ease-out 1;
 }
 
 .card {
