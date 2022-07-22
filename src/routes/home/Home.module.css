@@ -1,0 +1,166 @@
+h1 {
+	font-size: var(--step-3);
+}
+h2 {
+	font-size: var(--step-2);
+}
+h3 {
+	font-size: var(--step-1);
+}
+
+.home {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 2em;
+}
+
+.container {
+	position: relative;
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	place-items: center;
+}
+
+@media (max-width: 768px) {
+	.home {
+		padding: 0.5em;
+	}
+	.container {
+		width: 90vw;
+		height: 90vh;
+		display: flex;
+	}
+	.homeText {
+		margin-left: -25%;
+	}
+}
+
+.contentHome {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	color: #1b1b1b;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.homeTitle {
+	font-size: var(--step-5);
+	font-family: "Poppins", georgia;
+	font-weight: 900;
+	width: 100%;
+}
+
+.homeText {
+	position: relative;
+	font-size: var(--step-4);
+	font-family: "Lora", serif;
+	width: 25vw;
+	text-align: center;
+}
+
+.homeText::after {
+	position: absolute;
+	content: "";
+	font-family: "Lora", serif;
+	font-size: var(--step-3);
+	text-align: center;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	margin-left: -1em;
+	animation: home 8s cubic-bezier(0.62, 0.28, 0.23, 0.99) 1 forwards;
+}
+
+@keyframes home {
+	0% {
+		left: 15%;
+		content: "Web development";
+		opacity: 1;
+	}
+	10% {
+		opacity: 0;
+	}
+	15% {
+		left: 15%;
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	25% {
+		left: 0%;
+		content: "Websites";
+		opacity: 1;
+	}
+	30% {
+		content: "Websites";
+		opacity: 1;
+	}
+	40% {
+		opacity: 0;
+	}
+	45% {
+		opacity: 0;
+	}
+	55% {
+		left: 100%;
+		content: "Web Apps";
+		opacity: 1;
+	}
+	60% {
+		content: "Web Apps";
+		opacity: 1;
+	}
+	70% {
+		left: 65%;
+		opacity: 0;
+	}
+	75% {
+		left: 15%;
+		opacity: 0;
+	}
+	90% {
+		left: 15%;
+		content: "Web development";
+		opacity: 1;
+	}
+	100% {
+		content: "Web development";
+		opacity: 1;
+		left: 15%;
+	}
+}
+
+.homeTextPortfolio {
+	width: 17.75ch;
+	font-family: "Lora", serif;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: var(--step-1);
+	animation: typing 6s steps(35) alternate 1, blink 0.75s infinite 6s alternate;
+	border-right: 3px solid;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}

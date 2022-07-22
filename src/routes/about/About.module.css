@@ -1,0 +1,87 @@
+.About {
+	width: 100vw;
+	min-height: 99vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem 2rem;
+	background-color: #fff;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	gap: 3em;
+}
+
+.aboutText {
+	width: min(25em, 90%);
+}
+
+.aboutTextTop {
+	font-size: var(--step-2);
+	white-space: nowrap;
+	font-family: "Lora";
+}
+.aboutTextMiddle {
+	font-size: var(--step-5);
+	margin: -0.55em auto -0.2em auto;
+	font-family: "Poppins", georgia;
+	font-weight: 900;
+	white-space: nowrap;
+	word-break: break-word !important;
+	color: #176610 !important;
+}
+.aboutTextBottom {
+	font-family: "Lora";
+	font-size: var(--step--2);
+	text-align: justify;
+	width: min(50ch, 90%);
+}
+
+.aboutSkills {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	width: min(90%, 30rem);
+	max-height: 75vh;
+	overflow: auto;
+	text-align: center;
+	padding-inline: min(3rem, 5vw);
+}
+
+.aboutSkills h3 {
+	font-size: var(--step-3);
+}
+.aboutSkillsList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: min(3rem, 6vw);
+}
+
+.aboutSkills * img {
+	width: min(85px, 15vw);
+	height: min(85px, 18vw);
+	object-fit: contain;
+	margin-block: min(1rem, 5%);
+}
+
+@media (max-width: 1250px) {
+	.About {
+		padding: 2rem 0;
+	}
+	.container {
+		margin: 3rem 0;
+		flex-direction: column;
+		gap: 2em;
+	}
+	.aboutSkills {
+		max-height: 50vh;
+	}
+}
