@@ -39,12 +39,19 @@ const Card = ({ cardData }: { cardData: currentProjectsInterface }) => {
 				</div>
 				<div className={styles.buttonsContainer}>
 					<a
+						target="_blank"
+						rel="noreferrer"
 						className={`${styles.btn} ${styles.primaryButton}`}
 						href={cardData.liveUrl}
 					>
 						Webpage
 					</a>
-					<a className={styles.btn} href={cardData.github}>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						className={styles.btn}
+						href={cardData.github}
+					>
 						Github
 					</a>
 				</div>
