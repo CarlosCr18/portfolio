@@ -14,12 +14,12 @@ const Home = () => {
 					</div>
 					<div className={styles.homeTextPortfolio}>Front end developer.</div>
 				</div>
+				<img
+					className={styles.heroImage}
+					src="https://crespoportfolioimages.s3.us-east-2.amazonaws.com/cog.svg"
+					alt="sad"
+				/>
 			</div>
-			<img
-				className={styles.heroImage}
-				src="https://crespoportfolioimages.s3.us-east-2.amazonaws.com/cog.svg"
-				alt="sad"
-			/>
 		</div>
 	);
 };
