@@ -37,7 +37,7 @@ export default function NavBar() {
 						<i className="fa fa-linkedin" aria-hidden="true"></i>
 					</a>
 					<a
-						href="/resume.pdf"
+						href="https://raw.githubusercontent.com/CarlosCr18/portfolio/main/public/resume.pdf"
 						target="_blank"
 						aria-label="link to download"
 						className={styles.link}
