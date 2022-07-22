@@ -42,7 +42,9 @@ const Contact = () => {
 						</p>
 					</div>
 					<div className={styles.contentFormForm}>
-						<p className={styles.formSent}>{formCurrentData.formSent}</p>
+						<p className={styles.formSent} id="formSent">
+							{formCurrentData.formSent}
+						</p>
 						<form
 							className={styles.form}
 							id="ContactForm"
@@ -116,10 +118,14 @@ const Contact = () => {
 								onChange={(e) => setMessage(e.target.value)}
 								required
 							></textarea>
-							<button className={styles.submitButton} type="submit">
+							<button
+								id="submitButton"
+								className={styles.submitButton}
+								type="submit"
+							>
 								{formCurrentData.submitButtonText}
 							</button>
-							<p className={styles.submitLoading}>
+							<p id="submitLoading" className={styles.submitLoading}>
 								{formCurrentData.submitLoadingText}
 							</p>
 						</form>
