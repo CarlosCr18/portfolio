@@ -59,6 +59,6 @@
 
 .link:hover,
 .link:focus-visible {
-	transform: translateY(-0.35rem);
+	transform: translateY(-0.25rem);
 	color: white;
 }

@@ -7,7 +7,7 @@ interface skillsProps {
 
 const AboutSkills = ({ skillsData }: { skillsData: skillsProps }) => {
 	return (
-		<div>
+		<div className={styles.skillsContainer}>
 			<h3>{skillsData.title}</h3>
 			<div className={styles.aboutSkillsList}>
 				{skillsData.skills.map((sk, index) => {

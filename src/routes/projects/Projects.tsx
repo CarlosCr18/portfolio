@@ -11,26 +11,26 @@ const Projects = () => {
 			{
 				id: "Maskottchen",
 				title: "Dog grooming center",
-				img: "img/maskottchen.webp",
+				img: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/maskottchen.webp",
 				imgAlt: "project maskottchen preview image",
 				liveUrl: "https://carloscr18.github.io/Maskottchen/",
 				github: "https://github.com/CarlosCr18/Maskottchen",
 				text: "Frontpage for a dog grooming center and store",
 				skills: [
 					{
-						url: "img/html.webp",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/html.webp",
 						alt: "HTML5",
 					},
 					{
-						url: "img/javascript.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/javascript.svg",
 						alt: "Javascript",
 					},
 					{
-						url: "img/CSS3.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/CSS3.svg",
 						alt: "CSS3",
 					},
 					{
-						url: "img/react.webp",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/react.webp",
 						alt: "React",
 					},
 				],
@@ -38,22 +38,22 @@ const Projects = () => {
 			{
 				id: "japaneseApi",
 				title: "Japanese alphabet api",
-				img: "img/apiproject.webp",
+				img: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/apiproject.webp",
 				imgAlt: "Japanese alphabet api preview image",
 				liveUrl: "https://japanese-alphabet-api.herokuapp.com/",
 				github: "https://github.com/CarlosCr18/japAlphabetAPI",
 				text: "An api that responds with the japanese alphabet",
 				skills: [
 					{
-						url: "img/nodejs.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/nodejs.svg",
 						alt: "Javascript",
 					},
 					{
-						url: "img/express.png",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/express.png",
 						alt: "CSS3",
 					},
 					{
-						url: "img/mongo.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/mongo.svg",
 						alt: "React",
 					},
 				],
@@ -61,26 +61,26 @@ const Projects = () => {
 			{
 				id: "NiponABC",
 				title: "NiponABC",
-				img: "img/niponabc.webp",
+				img: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/niponabc.webp",
 				imgAlt: "project niponabc preview image",
 				liveUrl: "https://niponabcapp.herokuapp.com/",
 				github: "https://github.com/CarlosCr18/niponABC",
 				text: "Learn and study the japanese alphabet playing",
 				skills: [
 					{
-						url: "img/javascript.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/javascript.svg",
 						alt: "Javascript",
 					},
 					{
-						url: "img/CSS3.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/CSS3.svg",
 						alt: "CSS3",
 					},
 					{
-						url: "img/react.webp",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/react.webp",
 						alt: "React",
 					},
 					{
-						url: "img/next.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/next.svg",
 						alt: "Next Js",
 					},
 				],
@@ -88,26 +88,26 @@ const Projects = () => {
 			{
 				id: "RandomQuotes",
 				title: "Random quotes generator",
-				img: "img/randomquotes.webp",
+				img: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/randomquotes.webp",
 				imgAlt: "project random quotes preview image",
 				liveUrl: "https://carloscr18.github.io/randomQuotes/",
 				github: "https://github.com/CarlosCr18/randomQuotes",
 				text: "Get some inspiration from a random quote",
 				skills: [
 					{
-						url: "img/javascript.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/javascript.svg",
 						alt: "Javascript",
 					},
 					{
-						url: "img/CSS3.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/CSS3.svg",
 						alt: "CSS3",
 					},
 					{
-						url: "img/react.webp",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/react.webp",
 						alt: "React",
 					},
 					{
-						url: "img/redux.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/redux.svg",
 						alt: "Redux",
 					},
 				],
@@ -115,22 +115,22 @@ const Projects = () => {
 			{
 				id: "Pomodoro",
 				title: "Pomodoro App",
-				img: "img/pomodoro.webp",
+				img: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/pomodoro.webp",
 				imgAlt: "project pomodoro preview image",
 				liveUrl: "https://carloscr18.github.io/pomodoro/",
 				github: "https://github.com/CarlosCr18/pomodoro",
 				text: "A clock to keep track of your sessions length",
 				skills: [
 					{
-						url: "img/javascript.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/javascript.svg",
 						alt: "Javascript",
 					},
 					{
-						url: "img/CSS3.svg",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/CSS3.svg",
 						alt: "CSS3",
 					},
 					{
-						url: "img/react.webp",
+						url: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/react.webp",
 						alt: "React",
 					},
 				],

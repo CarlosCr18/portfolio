@@ -11,39 +11,39 @@ const About = () => {
 			title: "Front End",
 			skills: [
 				{
-					src: "img/javascript.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/javascript.svg",
 					alt: "Javascript Icon",
-					title: "1.5 years of experience",
+					title: "Javascript 1.5 years of experience",
 				},
 				{
-					src: "img/html.webp",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/html.webp",
 					alt: "HTML Icon",
-					title: "1.5 years of experience",
+					title: "HTML 1.5 years of experience",
 				},
 				{
-					src: "img/CSS3.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/CSS3.svg",
 					alt: "CSS Icon",
-					title: "1.5 years of experience",
+					title: "CSS 1.5 years of experience",
 				},
 				{
-					src: "img/typescript.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/TypeScript.svg",
 					alt: "Typescript Icon",
-					title: "less than 1 year of experience",
+					title: "Typescript less than 1 year of experience",
 				},
 				{
-					src: "img/react.webp",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/react.webp",
 					alt: "React Icon",
-					title: "1.5 years of experience",
+					title: "React 1.5 years of experience",
 				},
 				{
-					src: "img/redux.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/redux.svg",
 					alt: "Redux Icon",
-					title: "1.5 years of experience",
+					title: "Redux 1.5 years of experience",
 				},
 				{
-					src: "img/vue.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/vue.svg",
 					alt: "Vue Icon",
-					title: "less than 1 year of experience",
+					title: "Vue less than 1 year of experience",
 				},
 			],
 		},
@@ -51,34 +51,34 @@ const About = () => {
 			title: "Back End",
 			skills: [
 				{
-					src: "img/nodejs.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/nodejs.svg",
 					alt: "NodeJS Icon",
-					title: "less than 1 year of experience",
+					title: "NodeJS less than 1 year of experience",
 				},
 				{
-					src: "img/express.png",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/express.png",
 					alt: "Express Icon",
-					title: "less than 1 year of experience",
+					title: "Express less than 1 year of experience",
 				},
 				{
-					src: "img/next.svg",
-					alt: "Next Icon",
-					title: "less than 1 year of experience",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/next.svg",
+					alt: "NextJS Icon",
+					title: "NextJS less than 1 year of experience",
 				},
 				{
-					src: "img/mongo.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/mongo.svg",
 					alt: "MongoDB Icon",
-					title: "less than 1 year of experience",
+					title: "MongoDB less than 1 year of experience",
 				},
 				{
-					src: "img/php.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/php.svg",
 					alt: "PHP Icon",
-					title: "less than 1 year of experience",
+					title: "PHP less than 1 year of experience",
 				},
 				{
-					src: "img/postgresql.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/postgresql.svg",
 					alt: "Postgresql Icon",
-					title: "less than 1 year of experience",
+					title: "Postgresql less than 1 year of experience",
 				},
 			],
 		},
@@ -86,20 +86,20 @@ const About = () => {
 			title: "Others",
 			skills: [
 				{
-					src: "img/git.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/git.svg",
 					alt: "Git Icon",
 					title:
 						"GitHub 1.5 years of experience, GitLab less than 1 year of experience.",
 				},
 				{
-					src: "img/svn.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/svn.svg",
 					alt: "SVN Icon",
-					title: "Less than 1 year of experience",
+					title: "SVN less than 1 year of experience",
 				},
 				{
-					src: "img/python.svg",
+					src: "https://crespoportfolioimages.s3.us-east-2.amazonaws.com/Python.svg",
 					alt: "Python Icon",
-					title: "Less than 1 year of experience",
+					title: "Python less than 1 year of experience",
 				},
 			],
 		},
@@ -128,7 +128,7 @@ const About = () => {
 								? `${styles.mouseScroll}`
 								: `${styles.mouseScroll} ${styles.invisible}`
 						}
-						src="/img/scroll.png"
+						src="https://crespoportfolioimages.s3.us-east-2.amazonaws.com/scroll.png"
 						alt="Scroll"
 					/>
 					{skillsData.map((sk, index) => (

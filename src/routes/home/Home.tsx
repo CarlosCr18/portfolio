@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import NavBar from "../../reusableComponents/navigationBar/navigationBar";
 
 const Home = () => {
+	const backgroundImage = process.env.PUBLIC_URL + "banner.png";
 	return (
 		<div className={styles.home}>
 			<NavBar></NavBar>
@@ -15,6 +16,11 @@ const Home = () => {
 					<div className={styles.homeTextPortfolio}>Front end developer.</div>
 				</div>
 			</div>
+			<img
+				className={styles.heroImage}
+				src="https://crespoportfolioimages.s3.us-east-2.amazonaws.com/cog.svg"
+				alt="sad"
+			/>
 		</div>
 	);
 };
