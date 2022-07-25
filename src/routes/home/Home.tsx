@@ -16,8 +16,10 @@ const Home = () => {
 				</div>
 				<img
 					className={styles.heroImage}
+					loading="lazy"
 					src="https://crespoportfolioimages.s3.us-east-2.amazonaws.com/cog.svg"
-					alt="sad"
+					alt=""
+					decoding="async"
 				/>
 			</div>
 		</div>

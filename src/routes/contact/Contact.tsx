@@ -39,6 +39,10 @@ const Contact = () => {
 							<br></br>
 							<br></br>
 							{formCurrentData.text.split("\n")[2]}
+							<br></br>
+							<br></br>
+							You can reach me through this form or via Email at
+							CarlosCrespo18@gmail.com
 						</p>
 					</div>
 					<div className={styles.contentFormForm}>
