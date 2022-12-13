@@ -1,165 +1,163 @@
 @keyframes visible {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes translation {
-	0% {
-		transform: translateY(50%);
-	}
-	100% {
-		transform: translateY(0%);
-	}
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @keyframes scaleUp {
-	0% {
-		transform: scale(0.75);
-		transform-origin: top left;
-	}
-	100% {
-		transform: scale(1);
-		transform-origin: center;
-	}
+  0% {
+    transform: scale(0.75);
+    transform-origin: top left;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center;
+  }
 }
 
 .projects {
-	width: 100vw;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: min(3rem, 5em) 2em;
-	background-color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: min(3rem, 5em) 2em;
+  background-color: #fff;
 }
 
 .projectsText {
-	margin: min(2rem, 2vw) auto min(2rem, 2vw) auto;
+  margin: min(2rem, 2vw) auto min(2rem, 2vw) auto;
 }
 
 .projectsText h2 {
-	text-align: start;
-	white-space: nowrap;
-	font-size: var(--step-3);
-	margin-bottom: -0.5rem;
-	font-family: "Poppins";
-	animation: visible 0.55s ease-in-out 1, translation 0.45s ease-out 1;
+  text-align: start;
+  white-space: nowrap;
+  font-size: var(--step-3);
+  margin-bottom: -0.5rem;
+  font-family: "Poppins";
+  animation: visible 0.55s ease-in-out 1, translation 0.45s ease-out 1;
 }
 .projectsText p {
-	max-width: 80%;
-	text-align: justify;
-	font-size: var(--step--1);
-	color: rgba(0, 0, 0, 0.74);
-	font-family: "Lora";
-	animation: visible 0.75s ease-in-out 1, translation 0.5s ease-out 1;
+  max-width: 80%;
+  text-align: justify;
+  font-size: var(--step--1);
+  color: rgba(0, 0, 0, 0.74);
+  font-family: "Lora";
+  animation: visible 0.75s ease-in-out 1, translation 0.5s ease-out 1;
 }
 
 .cardsContainer {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	align-items: center;
-	justify-content: flex-start;
-	overflow-x: scroll;
-	flex-wrap: nowrap;
-	gap: 2rem;
-	padding: 1.5rem;
-	animation: visible 0.5s ease-in-out 1, scaleUp 0.4s ease-out 1;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  padding: 1.5rem;
+  animation: visible 0.5s ease-in-out 1, scaleUp 0.4s ease-out 1;
 }
 
 .card {
-	width: 15rem;
-	min-width: 15rem;
-	display: flex;
-	flex-direction: column;
+  width: 15rem;
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
 
-	overflow: hidden;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-	transition: all 0.35s;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.35s;
 }
 
 .card:hover,
 .card:focus,
 .card:focus-visible {
-	transform: translateY(-1rem);
-	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: translateY(-1rem);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .cardImageDiv {
-	max-width: 350px;
+  max-width: 350px;
 }
 
 .cardImageDiv img {
-	object-fit: scale-down !important;
-	aspect-ratio: 1.5;
-	width: 100%;
-	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  object-fit: scale-down !important;
+  aspect-ratio: 1.5;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .cardInfo {
-	height: 100%;
-	padding: 1rem;
+  height: 100%;
+  padding: 1rem;
 }
 
 .id {
-	font-size: var(--step-1);
-	margin: 0 auto -1rem auto !important;
+  font-size: var(--step-1);
+  margin: 0 auto -1rem auto !important;
 }
 .title {
-	flex: 1 0 100%;
-	font-size: var(--step--2);
-	opacity: 0.65;
-	margin-left: 0.25rem;
+  flex: 1 0 100%;
+  font-size: var(--step--2);
+  opacity: 0.65;
+  margin-left: 0.25rem;
 }
 
 .text {
-	font-size: var(--step--1);
-	text-align: center;
-	width: 70%;
-	margin: 2rem auto 0 auto !important;
+  font-size: var(--step--1);
+  text-align: center;
+  width: 70%;
+  margin: 2rem auto 0 auto !important;
 }
 
 .skillsContainer {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 0 1rem 1rem 0;
-	gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 1rem 1rem 0;
+  gap: 0.5rem;
 }
 
 .skillsImg {
-	max-width: min(50px, 12vw);
-	max-height: min(50px, 12vw);
-	background-color: transparent !important;
-	padding-block: 0.3rem;
-	margin-top: 1.75rem;
+  max-width: min(50px, 12vw);
+  max-height: min(50px, 12vw);
+  background-color: transparent !important;
+  padding-block: 0.3rem;
+  margin-top: 1.75rem;
 }
 .buttonsContainer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	padding-block: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-block: 0.5rem;
 }
 
 .btn {
-	text-decoration: none;
-	border: 1px solid #242424;
-	font-size: var(--step--1);
-	padding: 0.5rem 0.75rem;
-	opacity: 0.75;
-	border-radius: 0.2rem;
-	color: rgb(24, 24, 24) !important;
+  text-decoration: none;
+  border: 1px solid #242424;
+  font-size: var(--step--1);
+  padding: 0.5rem 0.75rem;
+  opacity: 0.75;
+  border-radius: 0.2rem;
+  color: rgb(24, 24, 24) !important;
 }
 
 .primaryButton {
-	opacity: 0.9;
-	background-color: #242424;
-	color: rgb(255, 255, 255) !important;
+  opacity: 0.9;
+  background-color: #242424;
+  color: rgb(255, 255, 255) !important;
 }

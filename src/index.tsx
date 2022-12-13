@@ -20,8 +20,6 @@ root.render(
 				<Route path="/About" element={<About />} />
 				<Route path="/Projects" element={<Projects />} />
 				<Route path="/Contact" element={<Contact />} />
-				{/* <Route path="/ordenes" element={<ListaDeOrdenes />} />
-      <Route path="/carrito" element={<CrearOrdenCarrito />} /> */}
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>
